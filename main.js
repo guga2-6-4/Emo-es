@@ -29,7 +29,7 @@ function takeSnapshot()
  function check()
  {
   img = document.getElementById('captured_image');
-  classifier.classify(img, gotresult); 
+  classifier.classify(img, gotResult); 
 }
 
  function speak(){
