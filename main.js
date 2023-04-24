@@ -52,28 +52,28 @@ function takeSnapshot()
     speak();
     if(results[0].label == "feliz")
     {
-      document.getElementById("uptadeEmoji").innerHTML = "&#128522;";
+      document.getElementById("updateEmoji").innerHTML = "&#128522;";
     }
     if(results[0].label == "triste")
     {
-      document.getElementById("uptadeEmoji").innerHTML = "&#128532;";
+      document.getElementById("updateEmoji").innerHTML = "&#128532;";
     }
     if(results[0].label == "irritado")
     {
-      document.getElementById("uptadeEmoji").innerHTML = "&#128548;";
+      document.getElementById("updateEmoji").innerHTML = "&#128548;";
     }
 
     if(results[1].label == "feliz")
     {
-      document.getElementById("uptadeEmoji2").innerHTML = "&#128522;";
+      document.getElementById("updateEmoji2").innerHTML = "&#128522;";
     }
     if(results[1].label == "triste")
     {
-      document.getElementById("uptadeEmoji2").innerHTML = "&#128532;";
+      document.getElementById("updateEmoji2").innerHTML = "&#128532;";
     }
     if(results[1].label == "irritado")
     {
-      document.getElementById("uptadeEmoji2").innerHTML = "&#128522;";
+      document.getElementById("updateEmoji2").innerHTML = "&#128522;";
     }
   }
  }
